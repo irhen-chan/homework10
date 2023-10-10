@@ -15,7 +15,7 @@
 
   <script>
     // Load and embed the Vega-Lite specification from your JSON file
-    fetch("E:\monash\notes\sem4\3179\weather datset\mapvisualization.vl.json") // Replace with the path to your JSON file
+    fetch("https://raw.githubusercontent.com/irhen-chan/homework10/main/mapvisualization.vl.json") // Replace with the path to your JSON file
       .then(response => response.json())
       .then(spec => {
         vegaEmbed('#chart', spec);
